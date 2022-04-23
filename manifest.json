@@ -1,0 +1,21 @@
+{
+    "manifest_version" : 2,
+    "name": "CheckMaster",
+    "version" : "1.0",
+    "author" : "AngelusTech",
+    "description" : "Checkear todos esos campos molestos con un solo clic. By AngelusTech 2021",
+    "icons" : {
+        "16" : "./img/logo16x16.png",
+        "48" : "./img/logo48x48.png",
+        "128" : "./img/logo128x128.png"
+    },
+    "background" : {
+        "scripts" : ["./js/background.js"]
+    },
+    "browser_action" : {
+        "default_icon" : "./img/logo16x16.png"
+    },
+    "permissions" : [
+        "activeTab"
+    ]
+}
